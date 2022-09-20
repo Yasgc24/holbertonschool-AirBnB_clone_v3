@@ -23,6 +23,7 @@ def one_amenity(amenity_id):
     amenity = storage.get(Amenity, amenity_id)
     if amenity is None:
         error = make_response(jsonify({"error": "Not found"}), 404)
+        return error.to_dict()
     return jsonify(amenity.to_dict())
 
 
