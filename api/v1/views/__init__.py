@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""File __init__"""
+"""this file be useful to import another modules"""
 from flask import Blueprint
 
 
