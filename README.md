@@ -160,5 +160,5 @@ Felipe Ríos - [Github](https://github.com/felipeholbi)
 Yasmin Giraldo - [Github](https://github.com/Yasgc24)
 
 Second part of Airbnb: Joann Vuong
-## License 
+## License 📋
 Public Domain. No copy write protection. 
