@@ -22,8 +22,7 @@ def one_amenity(amenity_id):
     """Method for one amenity"""
     amenity = storage.get(Amenity, amenity_id)
     if amenity is None:
-        error = make_response(jsonify({"error": "Not found"}), 404)
-        return error.to_dict()
+        abort(404)
     return jsonify(amenity.to_dict())
 
 
