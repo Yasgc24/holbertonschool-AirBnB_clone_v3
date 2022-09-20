@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-"""Module states"""
+"""
+this module contain modules
+and statments
+"""
 from flask import *
 from api.v1.views import app_views
 from models.state import State
