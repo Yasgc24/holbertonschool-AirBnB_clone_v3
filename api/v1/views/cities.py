@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-"""Module cities"""
+"""
+this module contains librari
+and statments to tthe child city
+"""
 from models import city
 from models.city import City
 from models.state import State
